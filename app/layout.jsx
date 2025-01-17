@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import "./globals.css";
 import { JetBrains_Mono } from "next/font/google";
 
@@ -16,7 +17,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={jetbrainsMono.variable}> {children}
+        className={jetbrainsMono.variable}>
+          <Header />
+         {children}
       </body>
     </html>
   );
