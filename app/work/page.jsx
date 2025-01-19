@@ -1,8 +1,8 @@
 
-export const Work = () => {
+const Work = () => {
   return (
     <div>work page</div>
   )
 }
 
-export default Work
+export default Work;

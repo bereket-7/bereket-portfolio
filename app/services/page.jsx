@@ -1,5 +1,5 @@
 
-export const Services = () => {
+const Services = () => {
   return (
     <div>services page</div>
   )
