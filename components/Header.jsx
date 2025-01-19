@@ -1,6 +1,8 @@
 import Link from "next/link"
 import { Button } from "./ui/button"
-import { Nav } from "./Nav"
+import Nav from './Nav';
+
+
 const Header = () => {
   return (
     <header className="py-8 xl:py-12 text-white">
@@ -31,4 +33,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
