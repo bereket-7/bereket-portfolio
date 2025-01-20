@@ -13,8 +13,13 @@ const StairAnimation = {
         top: ["100%", "0%"],
     },
 };
+const reverseIndex = (index) => {
+    const totalSteps = 6; // numbebr of steps
+    return totalSteps - index - 1;
+};
 const Stairs = () => {
-  return (
+  return <>
+  </>;  (
     <div>Stairs</div>
   )
 }
